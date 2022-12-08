@@ -1,8 +1,0 @@
----
-- hosts: tech
-  become: yes
-  gather_facts: true
-
-  tasks:
-  - name: Installing Updates (yum)
-    yum: name="*" state=latest
