@@ -1,6 +1,6 @@
 def buildApp() {
     echo 'building the application...'
-	echo 'building version ${params.VERSION} %date% %time%"
+	echo 'building version ${params.VERSION}"
 }
 
 def testApp() {
@@ -8,7 +8,7 @@ def testApp() {
 }
 def deployApp() {
     echo 'deploying the application...'
-	echo 'deploying version ${params.VERSION} %date% %time%"
+	echo 'deploying version ${params.VERSION}"
 }
 
 return this
