@@ -8,7 +8,7 @@ pipeline {
         stage("build") {							         									 
             steps {								 
                 echo "`date`|Building the application"
-                echo "`date`|Building version ${NEW_VERSION}"				
+                echo "`date`|Building version ${params.VERSION}"				
             }									 
         }									 									 
         stage("test") {								 
